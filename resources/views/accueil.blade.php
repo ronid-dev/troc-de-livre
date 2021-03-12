@@ -3,7 +3,6 @@
 @section('title_prefix', 'Accueil')
 
 @section('content')
-
     <div class="jumbotron">
         <h1 class="display-4">Bienvenue sur votre site d'echange de livre</h1>
         <h2>Echangez vos livres contre des nouveaux !</h2>

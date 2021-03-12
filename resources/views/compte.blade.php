@@ -4,7 +4,7 @@
 
 @section('content')
     <div class="jumbotron">
-        <h1 class="display-4">Je suis la page <span class="text-primary">Bonjour</span></h1>
+        <h1 class="display-4">Je suis la page <span class="text-primary">Compte</span></h1>
         <h2>Echangez vos livres contre des nouveaux !</h2>
         <p class="lead">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus adipisci culpa deserunt dignissimos

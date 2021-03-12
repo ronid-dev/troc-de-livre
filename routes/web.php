@@ -15,21 +15,32 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('accueil');
-});
+})->name('accueil');
+
 Route::get('/bonjour', function () {
-
     return view('bonjour');
-});
+})->name('bonjour');
 
-Route::get('/acceuill', function () {
-
-    return view('acceuill');
-});
 Route::get('/inscription', function () {
+    return view('auth.inscription');
+})->name('inscription');
 
-    return view('inscription');
-});
 Route::get('/connexion', function () {
+    return view('auth.connexion');
+})->name('connexion');
 
-    return view('connexion');
-});
+Route::get('/troc', function () {
+    return view('troc');
+})->name('troc');
+
+Route::get('/vitrine', function () {
+    return view('vitrine');
+})->name('vitrine');
+
+Route::get('/a-propos', function () {
+    return view('a-propos');
+})->name('a-propos');
+
+Route::get('/compte', function () {
+    return view('compte');
+})->name('compte');
